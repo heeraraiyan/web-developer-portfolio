@@ -208,3 +208,27 @@ font-weight: 700;
     text-align: center;
     margin-top: 50px;
 }
+/* footer styles */
+footer{
+
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 100px;
+    padding: 0px 120px;
+    gap: 100px;
+}
+.footer-coloumn{
+    width: 50%;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    width: 461px;
+    border-radius: 5px;
+background:  #FFF;
+border: none;
+}
+.social-links a{
+    margin-right: 25px;
+}
